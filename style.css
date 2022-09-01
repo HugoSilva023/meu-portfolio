@@ -1,0 +1,107 @@
+body, html {
+    margin: 0;
+    height: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.parallax{
+    position: relative;
+    height: 100%;
+    opacity: 0.8;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.conteudo {
+    height: 100%;
+}
+
+.barra a:hover {
+    color: #25F6F0;
+}
+
+/***Navbar***/
+.logo{
+    height: 70px;
+}
+
+.barra a:hover {
+    color: #25F6F0;
+}
+
+/***Home***/
+#home {
+    background-image: url(images/coding.jpg);
+    height: 100%;
+}
+
+#avatar {
+    height: 350px;
+    margin-bottom: 80px;
+}
+
+/***Meus Conhecimentos***/
+#meusConhecimentos {
+    height: 100%;
+}
+
+.imgConhecimentos {
+    max-height: 150px;
+}
+
+/***Projetos***/
+#projetos {
+    background-image: url(images/projetos.jpg);
+    height: 100%;
+    background-position: bottom;
+}
+
+#meusProjetos {
+    padding-top: 100px ;
+}
+
+/***Contato***/
+#contato {
+    background-image: url(images/contato.jpg);
+    height: 100%;
+    background-position: bottom;
+}
+
+#contatoConteudo{
+    height: 100%;
+}
+
+#contatoConteudo img {
+    height: 100px;
+}
+
+/***Rodapé***/
+footer {
+    background-color: black;
+    padding: 20px 0;
+    color: white;
+    text-align: center;
+}
+
+footer a:link, a:visited {
+    color: white;
+}
+
+/***Responsividade***/
+@media (max-width: 800px) {
+    .imgConhecimentos {
+        width: 50px;
+    }
+
+    #meusProjetos .card {
+        width: 160px;
+    }
+}
+
+@media (max-width: 540px) {
+    #meusProjetos {
+        padding-top: 5px ;
+    }
+}
