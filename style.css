@@ -63,18 +63,10 @@ header a:link, a:visited {
 }
 
 /***Contato***/
-#contato {
+#contatoConteudo {
     background-image: url(images/contato.jpg);
     height: 100%;
     background-position: bottom;
-}
-
-#contatoConteudo{
-    height: 100%;
-}
-
-#contatoConteudo img {
-    height: 100px;
 }
 
 /***Rodapé***/
