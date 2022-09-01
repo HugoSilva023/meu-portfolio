@@ -27,8 +27,8 @@ body, html {
     height: 70px;
 }
 
-.barra a:hover {
-    color: #25F6F0;
+header a:link, a:visited {
+    color: rgb(184, 184, 184);
 }
 
 /***Home***/
