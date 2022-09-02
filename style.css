@@ -81,6 +81,12 @@ footer a:link, a:visited {
     color: white;
 }
 
+footer a img {
+    width: 50px;
+    background-color: rgb(184, 184, 184);
+    border-radius: 7px;
+}
+
 /***Responsividade***/
 @media (max-width: 800px) {
     .imgConhecimentos {
