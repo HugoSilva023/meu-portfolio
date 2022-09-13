@@ -88,6 +88,17 @@ footer a img {
 }
 
 /***Responsividade***/
+@media (min-width: 1200px){
+    .imgProjetos {
+        width: 259px;
+        height: 9rem;
+    }
+
+    .card {
+        height: 25rem;
+    }
+}
+
 @media (max-width: 800px) {
     .imgConhecimentos {
         width: 50px;
